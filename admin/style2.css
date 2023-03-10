@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    display: grid;
+    grid-template-areas:
+    "glosy1 glosy2 glosy3"
+    "wykres wykres wykres";
+    grid-template-columns: 34% 32% 34%;
+grid-template-rows: 70vh 30vh;
+}
+
+#glosy1{
+    grid-area: glosy1;
+    background-color: darkred;
+}
+#glosy2{
+    grid-area: glosy2;
+    background-color: blue;
+}
+#glosy3{
+    grid-area: glosy3;
+    background-color: darkgreen;
+}
+#wykres{
+    grid-area: wykres;
+    background-color: black;
+}

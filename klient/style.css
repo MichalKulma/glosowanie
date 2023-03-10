@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    display: grid;
+    grid-template-areas:
+    "kand1 kand2 kand3"
+    "pesel glos"
+    "podaj";
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+#kand1{
+    grid-area: kand1;
+    width: 170px;
+}
+#kand2{
+    grid-area: kand2;
+    width: 170px;
+}
+#kand3{
+    grid-area: kand3;
+    width: 170px;
+}
+#pesel{
+    grid-area: pesel;
+}
+#glos{
+grid-area: glos;
+}
+#podaj{
+    grid-area: podaj;
+    width: 300px;
+}
